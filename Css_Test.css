@@ -1,0 +1,36 @@
+body {
+    background-color: aquamarine;
+}
+h1 {
+    color:deeppink;
+    font-family:'Times New Roman', Times, serif;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+h6{
+    color:aqua;
+    font-size: xx-small;
+}
+p {
+    color:brown;
+    border:5px lightgray solid;
+    padding: 30px
+    marging:50px
+}
+input[type=Name] {
+    width:5%;
+
+}
+input[type=Password] {
+    width:5%;
+
+}
+.button{
+    font-size: small;
+    border-radius: 8px;
+    transition-duration: 0.4s;
+}
+.button:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+}
